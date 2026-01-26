@@ -10,7 +10,7 @@ This document tracks your progress through the LLM Engineering curriculum.
 
 ## Quick Stats
 
-📊 **Overall Progress**: 5/30 core topics = **17%**
+📊 **Overall Progress**: 7/30 core topics = **23%**
 📅 **Study Start Date**: January 26, 2026
 🎯 **Current Milestone**: Fine-tuning & Alignment
 
@@ -22,7 +22,7 @@ This document tracks your progress through the LLM Engineering curriculum.
 |--------|--------|----------------|--------|----------|
 | **A. Foundations & Architecture** | 15% | 5/6 | 🟢 Mastered | Medium |
 | **B. Pre-training & Data** | 15% | 0/5 | ⚪ Not Started | Medium |
-| **C. Fine-tuning & Alignment** | **18%** ⭐ | 0/5 | 🟡 In Progress | **CRITICAL** |
+| **C. Fine-tuning & Alignment** | **18%** ⭐ | 2/5 | 🟡 In Progress | **CRITICAL** |
 | **D. Engineering: RAG & Prompting** | 17% | 0/4 | ⚪ Not Started | **HIGH** |
 | **E. Evaluation & Benchmarking** | 12% | 0/4 | ⚪ Not Started | Medium |
 | **F. Inference & Deployment** | 10% | 0/4 | ⚪ Not Started | Medium |
@@ -42,6 +42,18 @@ This document tracks your progress through the LLM Engineering curriculum.
 
 ---
 
+## C. Fine-tuning & Alignment (18%)
+
+### Topics to Master
+- [ ] **C.10 Supervised Fine-Tuning (SFT)** (Instruction tuning, Prompt masking)
+- [ ] **C.11 Alignment via RLHF** (PPO, Reward Models)
+- [ ] **C.12 Direct Preference Optimization (DPO)**
+- [x] **C.13 Efficient Fine-tuning (LoRA, QLoRA)**
+- [x] **C.13a Hyperparameter Optimization** (Rank, Alpha, Target modules selection)
+- [ ] **C.14 Multi-turn instruction following**
+
+---
+
 ## Topics Mastered
 
 - **Transformer Architecture**: Deep understanding of Encoder/Decoder blocks and their specific use cases (GPT, BERT, T5).
@@ -49,6 +61,7 @@ This document tracks your progress through the LLM Engineering curriculum.
 - **Tokenization**: Understanding of BPE/Byte-level BPE, OOV mitigation, and digit tokenization impact on math.
 - **Positional Encodings**: Understanding of sinusoidal vs. learned vs. rotary (RoPE) encodings.
 - **Activation & Normalization**: Deep intuition on LayerNorm vs. BatchNorm and modern RMSNorm/GeLU.
+- **Efficient Fine-tuning**: Mastery of LoRA/QLoRA principles, Rank/Alpha selection, and re-parameterization.
 
 ---
 

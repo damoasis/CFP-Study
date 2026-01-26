@@ -13,11 +13,26 @@
 - **Numerical Tokenization**:
     - **GPT-4 (cl100k_base)**: Uses regex `\p{N}{1,3}` to group digits into chunks of up to 3 (e.g., "123", "456").
     - **Llama 3**: Uses a specialized Tiktoken implementation that forces **individual digit tokenization** (e.g., "1", "2", "3", "4", "5", "6").
-- **Mathematical Implications**: Discussed alignment, carry-over logic, and how individual digits act as a "positional scratchpad" for better arithmetic reasoning.
+- **Fine-tuning & Alignment**:
+    - **SFT & Masking**: Understanding why we mask prompt tokens and only train on responses.
+    - **LoRA vs Full FT**: Cost, efficiency, and the "1% parameter" impact on safety.
+    - **DPO vs RLHF**: Mathematical simplification, stability benefits, and elimination of the Reward Model/PPO complexity.
 
 ## Comprehension Checks
-1. Why not just use character-level tokenization for everything?
-2. How does a comma (e.g., "1,234") impact tokenization in these models?
+- BPE OOV fallback mechanism: Understood.
+- GPT-4 vs Llama 3 numerical regex: Understood.
+- SFT Loss Masking: Clear on why we don't train on prompts.
+- DPO Advantages: Clear on stability and memory efficiency.
+- Alignment Safety: Understood how low-rank updates can bypass safety guards.
+
+## Mastered Topics
+- Transformer Architecture (A.1)
+- Attention Mechanisms (A.2)
+- Tokenization (A.3)
+- Positional Encodings (A.4)
+- Activation & Normalization (A.5)
+- Efficient Fine-tuning / LoRA (C.13)
+- Hyperparameter Optimization (C.13a)
 
 ## Topics Mastered
 - BPE OOV fallback mechanism
