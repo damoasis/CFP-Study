@@ -1,65 +1,44 @@
-# Session Notes - [DATE]
+# Session Notes: [Topic Name]
+**Date**: [YYYY-MM-DD]
+**Duration**: [X] minutes
+**Format**: Interactive Socratic Tutoring
 
 ## Session Overview
-- **Date**: [YYYY-MM-DD]
-- **Duration**: [Approximate time spent]
-- **Main Topics**: [Brief list]
+[Brief summary of what was covered today]
 
----
+## Topics Explored
+1. **[Topic 1]**: [Student's initial understanding vs. final mastery]
+2. **[Topic 2]**: [Key insights shared]
 
-## Questions Asked
+## Student Understanding Baseline
+- **What was known**: [Description of student's starting point]
+- **Misconceptions identified**: [Any wrong ideas corrected]
 
-### Question 1: [Topic]
-**Student's Question**: [Exact question or topic requested]
+## Concepts Explained
+- **[Concept Name]**: [Brief summary of the explanation provided]
+- **Teaching Approach**: [Socratic questioning / Analogy / Code example / etc.]
 
-**Initial Understanding**: [What student knew before explanation]
+## Code Examples Covered
+```python
+# [Brief description of the code snippet]
+# [Key implementation details]
+```
 
-**Explanation Given**: [Summary of concept explained]
-
-**Comprehension Check**:
-- Question asked: [Verification question posed]
-- Student's response: [How they answered]
-- Understanding level: [Strong/Partial/Needs more work]
-
-**Follow-up**: [Additional clarifications or next steps]
-
----
-
-### Question 2: [Topic]
-[Same structure as above]
-
----
+## Paper/Documentation References
+- **[Paper Title/Link]**: [Key takeaways or assigned sections]
+- **Question 1**: [The question asked]
+- **Response**: [How the student answered]
+- **Assessment**: [Mastered / Partially understood / Needs review]
 
 ## Knowledge Gaps Identified
+- [ ] [Gap 1]
+- [ ] [Gap 2]
 
-| Topic | Severity | Notes |
-|-------|----------|-------|
-| [Topic name] | High/Med/Low | [What was challenging] |
+## Topics Mastered
+- ✅ **[Topic Name]** (Confidence: High)
 
----
+## Resources & References
+- [Link to paper / Documentation / Blog post]
 
-## Topics Mastered Today
-
-| Topic | Confidence | Notes |
-|-------|------------|-------|
-| [Topic name] | High/Med | [What they understood well] |
-
----
-
-## Key Concepts Covered
-
-- **[Concept 1]**: [Brief note]
-- **[Concept 2]**: [Brief note]
-
----
-
-## Action Items for Next Session
-
-- [ ] Review: [Topics that need follow-up]
-- [ ] Practice: [Areas needing more examples]
-- [ ] Explore: [New related topics to cover]
-
----
-
-## Notes
-[Any additional observations about learning style, common mistakes, areas of strength, etc.]
+## Next Steps
+- [What to focus on in the next session]
