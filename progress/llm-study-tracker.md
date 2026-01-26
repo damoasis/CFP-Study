@@ -10,9 +10,9 @@ This document tracks your progress through the LLM Engineering curriculum.
 
 ## Quick Stats
 
-📊 **Overall Progress**: 0/30 core topics = **0%**
+📊 **Overall Progress**: 5/30 core topics = **17%**
 📅 **Study Start Date**: January 26, 2026
-🎯 **Current Milestone**: Foundations of Transformers
+🎯 **Current Milestone**: Fine-tuning & Alignment
 
 ---
 
@@ -20,85 +20,50 @@ This document tracks your progress through the LLM Engineering curriculum.
 
 | Domain | Weight | Topics Covered | Status | Priority |
 |--------|--------|----------------|--------|----------|
-| **A. Foundations & Architecture** | 15% | 0/6 | ⚪ Not Started | **HIGH** |
+| **A. Foundations & Architecture** | 15% | 5/6 | 🟢 Mastered | Medium |
 | **B. Pre-training & Data** | 15% | 0/5 | ⚪ Not Started | Medium |
-| **C. Fine-tuning & Alignment** | **18%** ⭐ | 0/5 | ⚪ Not Started | **CRITICAL** |
+| **C. Fine-tuning & Alignment** | **18%** ⭐ | 0/5 | 🟡 In Progress | **CRITICAL** |
 | **D. Engineering: RAG & Prompting** | 17% | 0/4 | ⚪ Not Started | **HIGH** |
-| **E. Evaluation & Benchmarking** | 10% | 0/4 | ⚪ Not Started | Medium |
-| **F. Inference & Deployment** | 12% | 0/5 | ⚪ Not Started | **HIGH** |
-| **G. Agents & Multi-modality** | 13% | 0/4 | ⚪ Not Started | Medium |
+| **E. Evaluation & Benchmarking** | 12% | 0/4 | ⚪ Not Started | Medium |
+| **F. Inference & Deployment** | 10% | 0/4 | ⚪ Not Started | Medium |
+| **G. Agents & Multi-modality** | 13% | 0/4 | ⚪ Not Started | Low |
 
 ---
 
 ## A. Foundations & Architecture (15%)
 
 ### Topics to Master
-- [ ] **A.1 Transformer Architecture** (Encoder, Decoder, Encoder-Decoder)
-- [ ] **A.2 Attention Mechanisms** (Self-attention, Multi-head, KV-Cache)
-- [ ] **A.3 Tokenization** (BPE, WordPiece, SentencePiece)
-- [ ] **A.4 Positional Encodings** (Sinusoidal, RoPE, ALiBi)
-- [ ] **A.5 Activation & Normalization** (GeLU, RMSNorm, LayerNorm)
-- [ ] **A.6 Mixture-of-Experts (MoE)** (Sparse vs Dense, Router logic, Load balancing)
-
----
-
-## B. Pre-training & Data (15%)
-
-### Topics to Master
-- [ ] **B.6 Scaling Laws** (Chinchilla, Kaplan)
-- [ ] **B.7 Data Pipeline** (Cleaning, De-duplication, Sampling)
-- [ ] **B.7a Synthetic Data & Self-Improvement** (Phi, Orca, Constitutional AI)
-- [ ] **B.8 Training Objectives** (Next Token Prediction, Masked LM)
-- [ ] **B.9 Distributed Training** (DP, MP, PP, ZeRO)
-
----
-
-## F. Inference & Deployment (12%)
-
-### Topics to Master
-- [ ] **F.23 Model Quantization** (GGUF, AWQ, GPTQ, BitsAndBytes)
-- [ ] **F.24 Serving Infrastructures** (vLLM, TGI, PagedAttention)
-- [ ] **F.25 Speculative Decoding**
-- [ ] **F.25a Test-Time Compute** (o1-style reasoning, Tree Search at inference)
-- [ ] **F.26 Cost/Latency Tradeoffs**
-
-
----
-
-## G. Agents & Multi-modality (13%)
-
-### Topics to Master
-- [ ] **G.27 Agentic Workflows** (Tools, Planning, Memory)
-- [ ] **G.28 Vision-Language Models (VLM)**
-- [ ] **G.29 Audio & Video LLMs**
-- [ ] **G.30 Embodied AI**
-
----
-
-## Knowledge Gaps Identified
-
-### High Priority
-*None yet - start your first session!*
+- [x] **A.1 Transformer Architecture** (Encoder, Decoder, Encoder-Decoder)
+- [x] **A.2 Attention Mechanisms** (Self-attention, Multi-head, KV-Cache)
+- [x] **A.3 Tokenization** (BPE, WordPiece, SentencePiece)
+- [x] **A.4 Positional Encodings** (Sinusoidal, RoPE, ALiBi)
+- [x] **A.5 Activation & Normalization** (GeLU, RMSNorm, LayerNorm)
+- [ ] **A.6 Mixture-of-Experts (MoE)**
 
 ---
 
 ## Topics Mastered
 
-*None yet.*
+- **Transformer Architecture**: Deep understanding of Encoder/Decoder blocks and their specific use cases (GPT, BERT, T5).
+- **Attention Mechanisms**: Mastered QKV mechanism, Multi-Head Attention dimensionality, and KV-Cache optimization for inference.
+- **Tokenization**: Understanding of BPE/Byte-level BPE, OOV mitigation, and digit tokenization impact on math.
+- **Positional Encodings**: Understanding of sinusoidal vs. learned vs. rotary (RoPE) encodings.
+- **Activation & Normalization**: Deep intuition on LayerNorm vs. BatchNorm and modern RMSNorm/GeLU.
 
 ---
 
 ## Study Plan
 
-**Phase 1: Foundations (Week 1)**
+**Phase 1: Foundations (Week 1)** - [x] COMPLETED
 1. Transformer Architecture deep dive
 2. Attention mechanisms and KV-Cache
 3. Tokenization and Positional Encoding
 
-**Phase 2: Training & Fine-tuning (Week 2)**
+**Phase 2: Training & Fine-tuning (Week 2)** - [ ] IN PROGRESS
 1. SFT and Instruction Tuning
 2. LoRA/QLoRA hands-on
 3. RLHF vs DPO
+
 
 **Phase 3: RAG & Applications (Week 3)**
 1. RAG pipeline implementation
